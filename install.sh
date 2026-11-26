@@ -12,7 +12,7 @@ python3 -m venv .venv
 .venv/bin/pip install torch --index-url https://download.pytorch.org/whl/cpu
 .venv/bin/pip install -r requirements.txt
 
-echo "== 技能仓库 =="
+echo "== 技能仓库（本仓库已含文本内容；此步从原仓库补齐演示等二进制素材）=="
 cd skills
 for r in lottiefiles/motion-design-skill lucasmarkes/hairline wheresryan22/anatomy annnguyentt/anatomy-reveal-skill remotion-dev/skills; do
   n=$(basename "$r")

@@ -1,7 +1,7 @@
 # Claude Motion Studio · 动效全流程线
 
 把 20 个开源工具整合成一条可落地的视频动效流水线：**分镜 → 动效 → 3D/物理 → 后期 → 视频生成 → 配乐卡点 → 字幕导出**。
-本仓库所有条目均已实测：链接存活 20/20，JS/Python 包实装并冒烟通过（版本见下）。
+来源：X 帖子 @jonnyhlkw 的 20 工具清单（2026-11-26）。本仓库所有条目均已实测：链接存活 20/20，JS/Python 包实装并冒烟通过（版本见下）。
 
 ## 全流程（7 阶段）
 
@@ -58,6 +58,6 @@
 ## 目录
 
 - `pipeline/` 七个阶段的说明、过关清单与示例（Manim 场景、librosa 卡点脚本）
-- `skills/` 五个技能仓库（install.sh 克隆，不 vendored）
+- `skills/` 五个技能仓库的文本内容已收进本仓库（695 个文件）；演示用 gif/mp4/PDF 等二进制素材未收录，install.sh 可从原仓库补齐
 - `tools/` Blender 二进制（不进 git）
 - `package.json` / `requirements.txt` 全部依赖清单
