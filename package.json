@@ -1,0 +1,22 @@
+{
+  "name": "claude-motion-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "One integrated motion-design pipeline for Muse: storyboard -> motion -> 3D/physics -> post FX -> video gen -> beat-matched audio -> subtitles/export. 20 open-source tools, verified installable.",
+  "type": "module",
+  "dependencies": {
+    "motion": "latest",
+    "gsap": "latest",
+    "lottie-web": "latest",
+    "three": "latest",
+    "@react-three/fiber": "latest",
+    "@react-three/rapier": "latest",
+    "react-postprocessing": "latest",
+    "three.quarks": "latest",
+    "tweakpane": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "remotion": "latest",
+    "@remotion/cli": "latest"
+  }
+}

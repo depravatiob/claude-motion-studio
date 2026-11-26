@@ -1,0 +1,9 @@
+node_modules/
+.venv/
+tools/blender/
+tools/*.tar.xz
+skills/*/
+!skills/README.md
+media/
+*.log
+.DS_Store
